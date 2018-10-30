@@ -36,6 +36,10 @@
         android:textColor="@color/BLANCO"
         android:textSize="50dp"></TextView>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="260dp">
     <LinearLayout
         android:layout_width="344dp"
         android:layout_height="195dp"
@@ -86,9 +90,12 @@
             android:background="@drawable/cuadro2"
             android:drawableLeft="@drawable/icono2"
             android:hint="Password"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:layout_marginBottom="20dp"/>
 
     </LinearLayout>
+    </ScrollView>
+
 
     <Button
         android:id="@+id/butonCrear"
@@ -116,6 +123,7 @@
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:text="Ingresar" />
+
 
 
 </RelativeLayout>
