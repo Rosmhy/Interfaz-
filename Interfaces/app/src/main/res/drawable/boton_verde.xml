@@ -2,7 +2,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
-            <solid android:color="#0099FF"/>
+            <solid android:color="#0DD535"/>
             <stroke android:width="0.1dp"
                 android:color="#FFFFFF"/>
             <corners android:radius="12dp"/>
